@@ -1,5 +1,6 @@
-package edu.uni.logisim.domain.circuit;
+package circuit;
 
+import edu.uni.logisim.domain.circuit.Circuit;
 import edu.uni.logisim.domain.component.Component;
 import edu.uni.logisim.domain.component.logic.AndGate;
 import edu.uni.logisim.domain.component.io.InputSwitch;
