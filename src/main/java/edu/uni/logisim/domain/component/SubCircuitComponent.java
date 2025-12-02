@@ -1,4 +1,4 @@
-package java.edu.uni.logisim.domain.component;
+package edu.uni.logisim.domain.component;
 
 import edu.uni.logisim.domain.circuit.Circuit;
 import edu.uni.logisim.domain.component.io.InputSwitch;

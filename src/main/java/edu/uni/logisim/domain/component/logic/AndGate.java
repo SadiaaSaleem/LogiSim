@@ -1,4 +1,4 @@
-package java.edu.uni.logisim.domain.component.logic;
+package edu.uni.logisim.domain.component.logic;
 
 import edu.uni.logisim.domain.component.Component;
 import edu.uni.logisim.domain.connector.Port;

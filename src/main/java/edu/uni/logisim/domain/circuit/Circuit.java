@@ -1,4 +1,4 @@
-package java.edu.uni.logisim.domain.circuit;
+package edu.uni.logisim.domain.circuit;
 
 import edu.uni.logisim.domain.component.Component;
 import edu.uni.logisim.domain.connector.Connector;
