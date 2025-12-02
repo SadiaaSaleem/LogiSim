@@ -1,4 +1,4 @@
-package edu.uni.logisim.domain.component;
+package component;
 
 import edu.uni.logisim.domain.component.io.InputSwitch;
 import org.junit.Test;
