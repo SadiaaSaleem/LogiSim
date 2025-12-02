@@ -1,9 +1,10 @@
-package edu.uni.logisim.domain.project;
+package project;
 
 import edu.uni.logisim.domain.circuit.Circuit;
 import edu.uni.logisim.domain.component.logic.AndGate;
 import edu.uni.logisim.domain.component.io.InputSwitch;
 import edu.uni.logisim.domain.component.io.LedOutput;
+import edu.uni.logisim.domain.project.Project;
 import edu.uni.logisim.persistence.FileProjectRepository;
 import edu.uni.logisim.persistence.ProjectRepository;
 import edu.uni.logisim.service.ProjectService;
