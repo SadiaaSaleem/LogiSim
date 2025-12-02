@@ -1,4 +1,4 @@
-package edu.uni.logisim.domain.component;
+package java.edu.uni.logisim.domain.component;
 
 import edu.uni.logisim.domain.circuit.Circuit;
 import edu.uni.logisim.domain.component.io.InputSwitch;
@@ -6,7 +6,8 @@ import edu.uni.logisim.domain.component.io.LedOutput;
 import edu.uni.logisim.domain.connector.Port;
 import edu.uni.logisim.domain.connector.PortType;
 import edu.uni.logisim.domain.simulation.SimulationContext;
-import java.awt.Point;
+
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 

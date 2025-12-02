@@ -1,8 +1,8 @@
-package edu.uni.logisim.domain.component;
+package java.edu.uni.logisim.domain.component;
 
 import edu.uni.logisim.domain.connector.Port;
-import edu.uni.logisim.domain.connector.PortType;
-import java.awt.Point;
+
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 

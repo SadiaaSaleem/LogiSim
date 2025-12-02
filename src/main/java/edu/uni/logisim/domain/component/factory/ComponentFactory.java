@@ -1,5 +1,6 @@
-package edu.uni.logisim.domain.component.factory;
+package java.edu.uni.logisim.domain.component.factory;
 
+import edu.uni.logisim.domain.circuit.Circuit;
 import edu.uni.logisim.domain.component.Component;
 import edu.uni.logisim.domain.component.SubCircuitComponent;
 import edu.uni.logisim.domain.component.io.InputSwitch;
@@ -7,11 +8,11 @@ import edu.uni.logisim.domain.component.io.LedOutput;
 import edu.uni.logisim.domain.component.logic.AndGate;
 import edu.uni.logisim.domain.component.logic.NotGate;
 import edu.uni.logisim.domain.component.logic.OrGate;
-import edu.uni.logisim.domain.circuit.Circuit;
 import edu.uni.logisim.domain.project.Project;
 import edu.uni.logisim.persistence.JsonProjectSerializer;
 import edu.uni.logisim.util.IdGenerator;
-import java.awt.Point;
+
+import java.awt.*;
 import java.io.File;
 
 /**
@@ -111,7 +112,7 @@ public class ComponentFactory {
             System.out.println("DEBUG: Attempting to load sub-circuit from file: " + circuitFilePath);
             
             // Check if file exists
-            java.io.File file = new java.io.File(circuitFilePath);
+            File file = new File(circuitFilePath);
             if (!file.exists()) {
                 throw new RuntimeException("Circuit file does not exist: " + circuitFilePath);
             }

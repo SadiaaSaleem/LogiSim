@@ -1,6 +1,7 @@
-package edu.uni.logisim.domain.project;
+package java.edu.uni.logisim.domain.project;
 
 import edu.uni.logisim.domain.circuit.Circuit;
+
 import java.util.ArrayList;
 import java.util.List;
 

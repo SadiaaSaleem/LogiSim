@@ -1,8 +1,8 @@
-package edu.uni.logisim.domain.connector;
+package java.edu.uni.logisim.domain.connector;
 
 import edu.uni.logisim.domain.component.Component;
-import java.awt.Color;
-import java.awt.Point;
+
+import java.awt.*;
 
 /**
  * Represents a wire or connection between component ports.
@@ -54,7 +54,7 @@ public class Connector {
      * @param sourceComponent the component that outputs the signal
      * @param sinkComponent the component that receives the signal
      */
-    public Connector(String id, Port sourcePort, Port sinkPort, 
+    public Connector(String id, Port sourcePort, Port sinkPort,
                      Component sourceComponent, Component sinkComponent) {
         this.id = id;
         this.sourcePort = sourcePort;

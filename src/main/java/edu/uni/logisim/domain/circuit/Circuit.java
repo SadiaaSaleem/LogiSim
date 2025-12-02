@@ -1,7 +1,8 @@
-package edu.uni.logisim.domain.circuit;
+package java.edu.uni.logisim.domain.circuit;
 
 import edu.uni.logisim.domain.component.Component;
 import edu.uni.logisim.domain.connector.Connector;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;

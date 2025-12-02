@@ -1,6 +1,6 @@
-package edu.uni.logisim.domain.connector;
+package java.edu.uni.logisim.domain.connector;
 
-import java.awt.Point;
+import java.awt.*;
 
 /**
  * Represents an input or output point on a component.

@@ -1,9 +1,10 @@
-package edu.uni.logisim.domain.component.logic;
+package java.edu.uni.logisim.domain.component.logic;
 
 import edu.uni.logisim.domain.component.Component;
 import edu.uni.logisim.domain.connector.Port;
 import edu.uni.logisim.domain.connector.PortType;
-import java.awt.Point;
+
+import java.awt.*;
 
 /**
  * NOT gate component (inverter) - performs logical NOT operation.

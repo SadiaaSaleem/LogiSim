@@ -1,9 +1,10 @@
-package edu.uni.logisim.domain.component.io;
+package java.edu.uni.logisim.domain.component.io;
 
 import edu.uni.logisim.domain.component.Component;
 import edu.uni.logisim.domain.connector.Port;
 import edu.uni.logisim.domain.connector.PortType;
-import java.awt.Point;
+
+import java.awt.*;
 
 /**
  * Input switch component - user-controlled input source.
